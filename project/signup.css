@@ -1,0 +1,99 @@
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 2, 2, 0.73)),
+    url('photos/bg6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.signup{
+    background: #27ae60;
+}
+
+.signup-container{
+    padding: 10px;
+}
+
+
+.signup-wrapper{
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 14px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.signup-wrapper button{
+    text-transform: uppercase;
+    font-family: 'Satisfy', cursive;
+    background: #2ecc71;
+    color: #fff;
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    height: 40px;
+
+}
+
+.signup-wrapper button:hover{
+    background-color: #27ae60;
+    transition: .5s;
+}
+
+.signup-wrapper input{
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 14px;
+    color: #fff;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Satisfy';
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+::placeholder {
+    color: #fff;
+    opacity: .6;
+}
+  
+:-ms-input-placeholder {
+    color: #fff;
+}
+  
+::-ms-input-placeholder { 
+    color: #fff;
+}
+
+@media(max-width: 500px){
+    .signup-wrapper{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        border-radius: 14px;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+}

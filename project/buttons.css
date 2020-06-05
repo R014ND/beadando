@@ -1,0 +1,20 @@
+.main-wrapper button{
+    cursor: pointer;
+    border: 0;
+    display: block;
+    background-color: transparent;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b50e4e;
+    padding: 10px 5%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25;
+    width:50%;
+    text-transform: uppercase;
+}
+
+.main-wrapper button:hover{
+    border-color: #3ae374;
+}

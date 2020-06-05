@@ -1,0 +1,22 @@
+.logout{
+        border: none;
+        font-family: 'Satisfy', cursive;
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding-left:13px;
+        padding-right:13px;
+        padding-top:7px;
+        padding-bottom:6px;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 0 5px;
+}
+.logout:hover{
+
+    border: none;
+    background: #27ae60;
+    transition: .5s;
+}
