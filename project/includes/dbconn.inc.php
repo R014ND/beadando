@@ -1,4 +1,5 @@
 <?php
+    //Alap xammp adatbázis konfiguráció
     $dbServername = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
